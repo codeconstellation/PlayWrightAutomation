@@ -9,7 +9,7 @@ await page.goto("https://www.cnn.com/");
 });
 
 
-test.only ('Google page open',async ({page})=>
+test ('Google page open',async ({page})=>
 {
 await page.goto("https://www.google.com/");
 });
