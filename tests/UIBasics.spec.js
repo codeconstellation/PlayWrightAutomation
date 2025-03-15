@@ -5,7 +5,7 @@ test ('First Playwright test', async ({browser,page})=>
 //playwright code
 //const context = await browser.newContext();
 //const page = await context.newPage();
-await page.goto("https://www.google.com/");
+await page.goto("https://www.cnn.com/");
 });
 
 
